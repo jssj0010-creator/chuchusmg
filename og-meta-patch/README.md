@@ -7,10 +7,10 @@
 - Python 3.8+
 
 ## 사용 방법
-1) 이 폴더(`og-meta-patch`)를 프로젝트 루트와 같은 위치에 둡니다. (예: `KingsMassage` 폴더와 동일한 상위)
+1) 이 폴더(`og-meta-patch`)를 프로젝트 루트와 같은 위치에 둡니다. (예: `츄츄마사지` 폴더와 동일한 상위)
 2) 터미널에서 프로젝트 루트로 이동:
    ```bash
-   cd /path/to/KingsMassage  # index.html 이 있는 위치
+   cd /path/to/츄츄마사지  # index.html 이 있는 위치
    ```
 3) 패치를 실행:
    ```bash
