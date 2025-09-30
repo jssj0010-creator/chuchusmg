@@ -1,0 +1,6 @@
+
+.region-top-cta{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;padding:.6rem .9rem;margin:.6rem 0;
+  background:#0b1220;color:#e5e7eb;border:1px solid rgba(255,255,255,.12);border-radius:12px}
+.region-top-cta a{color:#fff;text-decoration:none}
+.region-top-cta .kakao{padding:.35rem .6rem;background:#fdd835;color:#111827;border-radius:10px;font-weight:700}
+.region-top-cta .kakao:hover{filter:brightness(0.95)}
