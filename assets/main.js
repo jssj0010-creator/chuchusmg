@@ -1,1 +1,0 @@
-console.log('ChuChu bright theme loaded');
