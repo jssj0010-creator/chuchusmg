@@ -1,6 +1,27 @@
 <!doctype html>
 <html lang="ko">
-<head>
+\1
+<!-- GH Pages base fix -->
+<script>
+(function() {
+  try {
+    var isGH = /\.github\.io$/i.test(location.hostname);
+    if (!isGH) return;
+    var parts = location.pathname.split('/').filter(Boolean);
+    // If project pages, path is /<repo>/... -> use '/<repo>/'
+    var baseHref = parts.length > 0 ? '/' + parts[0] + '/' : '/';
+    // Avoid duplicating if already present
+    var existing = document.querySelector('base[data-gh-base]');
+    if (!existing) {
+      var baseEl = document.createElement('base');
+      baseEl.setAttribute('data-gh-base', '1');
+      baseEl.href = baseHref;
+      document.head.insertBefore(baseEl, document.head.firstChild);
+    }
+  } catch(e) {}
+})();
+</script>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>츄츄마사지 | 출장마사지·홈타이 — 서울·경기·인천 즉시 연결 · 출장스웨디시</title>
